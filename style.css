@@ -1,0 +1,24 @@
+.intro {
+    background-color: #1f2937;
+    height: 600px;
+}
+
+.info {
+    background-color: white;
+    height: 400px;
+}
+
+.quote {
+    background-color: #e5e7EB;
+    height: 400px;
+}
+
+.call {
+    background-color: white;
+    height: 400px;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+}
