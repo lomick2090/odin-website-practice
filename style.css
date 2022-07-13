@@ -1,3 +1,7 @@
+body {
+    margin:0;
+}
+
 .intro {
     background-color: #1f2937;
     height: 600px;
@@ -62,9 +66,46 @@
 }
 
 .info {
+    display:flex;
     background-color: white;
     height: 400px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
 }
+
+.info .content {
+    display:flex;
+    height: 250px;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cardholder {
+    display: flex;
+    justify-content: center;
+    gap:24px;
+}
+
+.card {
+    text-align: center;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    width: 175px;
+}
+
+.card img {
+    height: 175px;
+    width: 175px;
+}
+
 
 .quote {
     background-color: #e5e7EB;
@@ -80,3 +121,4 @@
     background-color: #1f2937;
     height: 100px;
 }
+    
