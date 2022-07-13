@@ -1,6 +1,64 @@
 .intro {
     background-color: #1f2937;
     height: 600px;
+    display:flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    flex-direction: column;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pinatalogo {
+    height: 80px;
+    width: 160px;
+}
+
+.headerlinks {
+    color: white;
+    font-size: 24px;
+    list-style-type: none;
+    display:flex;
+    gap: 24px;
+}
+
+.headerlinks a {
+    color: white;
+    text-decoration: none;
+}
+
+.landing {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.title {
+    display: inline-flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.title h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+}
+
+.title button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    padding:10px;
+}
+
+.pinata {
+    width:400px;
 }
 
 .info {
